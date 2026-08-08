@@ -31,10 +31,12 @@ date for you automatically — re-copy it whenever you change your timezone in
 [`daily-writing.toml`](/daily-writing.toml).
 
 <!-- BEGIN cron -->
+ℹ️ Your `publish.yml` currently uses a different schedule than this one (which is fine if you changed it on purpose).
+
 ```yaml
+  # Based on the timezone of this project: UTC
   schedule:
-  - cron: '1 22 * * *'
-  - cron: '1 23 * * *'
+  - cron: '1 0 * * *'
 ```
 <!-- END cron -->
 
