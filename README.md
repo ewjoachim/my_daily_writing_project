@@ -1,3 +1,3 @@
 # My Daily Writing Project
 
-My awesome project
+My awesome project yay
